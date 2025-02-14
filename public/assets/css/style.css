@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: beige !important; 
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    flex-direction: column;
+}
+
+.calcbox{
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.btn-secondary{
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    font-size: 12px; /* Increase text size */
+}
+
+.calc{
+    margin-top: 20px;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    background-color: #B65FCF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.calc:hover{
+    background-color: #D59EE4;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #72b2eb !important;
+    color: white !important; /* White text for contrast */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.equation-btn.active {
+    background-color: #90c6f5 !important; /* Light blue */
+    color: white !important;
+    border-color: #72b2eb !important;
+}
